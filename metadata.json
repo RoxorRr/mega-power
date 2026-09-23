@@ -1,0 +1,6 @@
+{
+  "name": "AuraBall · Quantum Lottery Oracle",
+  "description": "Mega Millions and Powerball predictive engine synthesizing atmospheric pressure, ambient temperature, wind velocity, cloud coverage, draw date, Wall Street market indices, and personalized lucky numbers.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

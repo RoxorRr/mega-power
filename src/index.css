@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cinzel", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #08090c;
+    color: #f3f4f6;
+  }
+}
+
+.font-serif-display {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-mono-tabular {
+  font-family: "JetBrains Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 3D Realistic Lottery Ball Styles */
+.lottery-ball-white {
+  background: radial-gradient(circle at 35% 30%, #ffffff 0%, #f3f4f6 30%, #d1d5db 70%, #9ca3af 100%);
+  box-shadow: 
+    inset -4px -4px 8px rgba(0, 0, 0, 0.35),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.9),
+    0 8px 16px -2px rgba(0, 0, 0, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.lottery-ball-gold {
+  background: radial-gradient(circle at 35% 30%, #fffbeb 0%, #fde047 25%, #eab308 60%, #a16207 90%, #713f12 100%);
+  box-shadow: 
+    inset -4px -4px 8px rgba(0, 0, 0, 0.4),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.8),
+    0 8px 20px -2px rgba(234, 179, 8, 0.4),
+    0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.lottery-ball-red {
+  background: radial-gradient(circle at 35% 30%, #fee2e2 0%, #f87171 25%, #dc2626 60%, #991b1b 90%, #450a0a 100%);
+  box-shadow: 
+    inset -4px -4px 8px rgba(0, 0, 0, 0.45),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.8),
+    0 8px 20px -2px rgba(220, 38, 38, 0.4),
+    0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Ambient Subtle Grid */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
